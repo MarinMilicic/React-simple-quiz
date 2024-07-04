@@ -1,0 +1,28 @@
+.interactive-element-base {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow-primary;
+
+    &:hover,
+    &:focus {
+        transform: scale(1.05);
+    }
+
+    &--invalid {
+        border: 1px solid $color-danger;
+    }
+}
+
+.error-msg {
+    color: $color-danger;
+    min-height: 20px;
+}
+
+.button {
+    background-color: $bg-color-secondary;
+    color: $txt-color-secondary;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+@each $name, $align in $alignements-main {
+    .flex-jc-#{$name} {
+        justify-content: $align;
+    }
+}
+
+@each $align in $alignements-cross {
+    .flex-ai-#{$align} {
+        align-items: $align;
+    }
+}

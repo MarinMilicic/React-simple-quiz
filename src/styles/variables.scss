@@ -1,0 +1,17 @@
+$bg-color-primary: var(--bg-color-primary);
+$bg-color-secondary: var(--bg-color-secondary);
+$txt-color-secondary: var(--txt-color-secondary);
+$color-danger: var(--color-danger);
+$box-shadow-primary: var(--box-shadow-primary);
+$border-radius: var(--border-radius);
+
+$alignements-main: (
+    center: center,
+    left: left,
+    right: right,
+    s-around: space-around,
+    s-between: space-between,
+    s-evenly: space-evenly,
+);
+
+$alignements-cross: start, end, center;

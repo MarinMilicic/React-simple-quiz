@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+
+.header {
+    box-shadow: $box-shadow-primary;
+    height: 8vh;
+    min-height: 60px;
+    background-color: $bg-color-secondary;
+    color: $txt-color-secondary;
+}
+

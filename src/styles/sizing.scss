@@ -1,0 +1,19 @@
+@for $i from 1 through 50 {
+    .w-#{$i * 20} {
+        width: $i * 20px;
+    }
+
+    .h-#{$i * 20} {
+        height: $i * 20px;
+    }
+}
+
+@for $i from 1 through 10 {
+    .w-#{$i * 10}pc {
+        width: $i * 10%;
+    }
+
+    .h-#{$i * 10}pc {
+        height: $i * 10%;
+    }
+}
